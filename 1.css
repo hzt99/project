@@ -1,0 +1,161 @@
+main #guodu{
+height: 50px;
+background: rgb(193, 186, 186);
+background-image: linear-gradient(to right bottom,rgb(241, 48, 48),rgb(244, 231, 230));
+z-index: -2;
+height: 30px;
+text-align: right;
+   font-size: larger;
+   font-weight: 100;
+  font-style: italic;
+}
+main{
+    background: rgba(176, 176, 176, 0.637);
+    opacity: 0.9;
+}
+ul{
+    list-style: none;
+}
+
+.disange{
+    position: sticky;
+   
+}
+ .disange ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    background-color: #f1f1f1;
+  
+   
+  }
+  
+ .disange a {
+    display: block;
+    color: #000;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+.disange li {
+    text-align: center;
+
+    display: inline-block;
+    
+  
+  }
+  
+ .disange li:last-child {
+    border-bottom: none;
+   
+  }
+  
+.disange a.active {
+    background-color: #fb413e;
+    color: white;
+  
+  }
+  
+.disange a:hover:not(.active) {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  
+  }
+  .disange{
+    margin: 0;
+    position: sticky;
+    top: 0;
+    
+  }
+  .disige ul{
+    margin: 0;
+    padding: 0;
+  }
+  #flex2{
+    display: flex;
+  }
+  #biaoti4{
+    text-align: center;
+    background: rgb(186, 183, 183);
+    font-size: large;
+    width:100%;
+   height: 50px;
+   font-size: x-large;
+   font-style: italic;
+   font-weight: bolder;
+   color: aliceblue;
+   background-image: linear-gradient(to right bottom,rgb(45, 44, 44),rgb(254, 0, 0));
+   border-radius: 1000px;
+  }
+  .tupian4{
+   
+    float: left;
+  }
+  .wenzi4{
+ float: right;
+ width:700px;
+ margin-left: 40px;
+ margin-right: 40px;
+ letter-spacing: 5px;
+ margin-top: 20px;
+
+  }
+.flex4{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.hidden{
+   display: none;
+   position: absolute;
+   background: #f1f1f1;
+   z-index: 5;
+   width: 250px;
+  
+}
+
+.out{
+    position: relative;
+    display: inline-block;
+}
+.out:hover .hidden{
+    display: block;
+
+}
+
+.huise{
+    background: #f1f1f1 ;
+    height: 30px;
+text-align: right;
+   font-size: larger;
+   font-weight: 100;
+  font-style: italic;
+}
+  .jiewei{
+    background: rgb(4, 4, 4);
+    height: 250px;
+}
+.jiewei h1{
+    text-align: center;
+    color: white;
+}
+.jiewei h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: small;
+    color: white;
+}
+.flex5{
+    display: flex;
+    color: beige;
+  flex-direction: row-reverse;
+}
+.flex5 li{
+    padding: 10px;
+
+   
+}
