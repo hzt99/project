@@ -117,6 +117,11 @@ font-weight: 400;    letter-spacing: 2px;
         border-color: gray;
         border-radius: 20px;
         margin: 20px;
+        transition: width 0.8s,height 0.8s;
+       }
+       .tu img:hover{
+        width: 320px;
+        height: 220px;
        }
        ul{
         list-style: none;
@@ -142,7 +147,7 @@ width: 400px;
         color: rgba(3, 3, 3, 0.626);
       text-shadow: 0 0 3px rgba(250, 40, 17, 0.603);
 
-     
+  
       }
       .tupianwenzijieshao{
         font-weight: 500;
@@ -166,7 +171,24 @@ width: 400px;
 main{
     margin: 0;
 }
-   
+.fadein{
+    animation: fadeinL 2s linear 1;
+    font-size: 18px;
+
+}
+
+@-webkit-keyframes fadeinL{
+    0%{opacity:0;-webkit-transform:translateX(-100px);}
+    100%{opacity:1;-webkit-transform:translateX(0);}
+}
+.one{
+    animation: fadeinB 2s linear 1;
+}
+@-webkit-keyframes fadeinB{
+    0%{opacity:0;-webkit-transform:translateY(100px);}
+    100%{opacity:1;-webkit-transform:translateY(0);}
+}
+
     </style>
     <link href="1.css" rel="stylesheet" type="text/css">
 </head>
@@ -174,8 +196,8 @@ main{
    
         <div class="zuo">
             <ul class="zuobiaoge">
-                <li  > <h1><a class="diyige" href="#">南</a></h1></li>
-                <li  ><h1><a class="diyige" href="#">京</a></h1></li>
+                <li class="fadein" > <h1><a class="diyige" href="#">南</a></h1></li>
+                <li  class="fadein"><h1><a class="diyige" href="#">京</a></h1></li>
                 <li class="dierg"><h2><a href="daxue.html">大学介绍</a></h2></li>
                 <li class="dierg"><h2><a href="城市历史.html#tiaozhuan4">城市历史</a></h2></li>
                 <li class="dierge"><h2><a href="#guodu">美食分享</a></h2></li>

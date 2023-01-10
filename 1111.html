@@ -1,148 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>大学介绍</title>
-    <style>
-  
-  *{
-            margin: 0;
-            padding: 0;
-        }
- 
-        .bigbox{
-            box-sizing: border-box;
-            width: 1000px;
-            height: 400px;
-            margin: 200px auto;
-        }
- 
-        .map{
-            box-sizing: border-box;
-            width: 1000px;
-            height: 50px;
-        }
- 
-        .neirong{
-            width: 1000px;
-            height: 350px;
-            background-color: rgb(180, 219, 255);
-        }
- 
-        li{
-            box-sizing: border-box;
-            float: left;
-            width: 250px;
-            height: 50px;
-            background-color: rgb(230, 226, 226);
-            list-style: none;
-            border-top: 1px solid;
-            border-bottom: 1px solid;
-            border-color: rgb(59, 59, 59);
-            text-align: center;
-            line-height: 48px;
-            font-size: 20px;
-            cursor: pointer;
-        }
- 
-        li:nth-child(1){
-            border-left: 1px solid;
-            border-color: rgb(59, 59, 59);
-        }
- 
-        li:nth-child(4){
-            border-right: 1px solid;
-            border-color: rgb(59, 59, 59);
-        }
- 
-        .choose{
-            background-color: rgb(216, 0, 0);
-            color: rgb(255, 255, 255);
-        }
- 
-        .neirong{
-            padding: 20px;
-            box-sizing: border-box;
-        }
- 
-        .neirong div{
-            font-size: 30px;
-        }
-
-     
- 
-        .neirong div{
-            font-size:large;
-          
-        }
-       .neirong img{
-        float: left;
-       }
-       .youbian{
-        width: 1000px;
-
-       }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>动画1</title>
 </head>
+
 <body>
-   <div class="bigbox">
-        <div class="map">
-            <ul>
-                <li class="choose">南京大学</li>
-                <li>东南大学</li>
-                <li>河海大学</li>
-                <li>南京师范大学</li>
-            </ul>
-        </div>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
 
-        <div class="neirong">
-            <div style=" display:block;" class="youbian" >
-                <div>
-                    <img src="homework/南京大学图片.webp" width="300px" height="300px">
-                </div>
-                <div>
-                    南京大学（Nanjing University），简称“南大”，位于江苏省南京市，是中华人民共和国教育部直属、中央直管副部级建制的全国重点大学， [89]  位列国家“双一流”、“985工程”、“211工程” 重点建设高校，入选“珠峰计划”、“强基计划”、“111计划”、“2011计划”，为九校联盟（C9）、中国大学校长联谊会、环太平洋大学联盟、21世纪学术联盟、全球大学高研院联盟、国际应用科技开发协作网、东亚研究型大学协会、亚洲校园、新工科教育国际联盟、中国高校行星科学联盟、长三角研究型大学联盟、学位授权自主审核单位成员，首批国家级双创示范基地。
-                学校肇始于1902年创建的三江师范学堂，此后历经两江师范学堂、南京高等师范学校、国立东南大学、国立中央大学等时期，1950年更名为南京大学。1952年，调整出部分院系后与创办于1888年的金陵大学文、理学院等合并，仍名南京大学。校址从四牌楼迁至鼓楼金陵大学原址。2006年，教育部和江苏省签订重点共建南京大学的协议。2011年，教育部和江苏省签署协议继续重点共建南京大学。
-                </div>
-                </div>
-            <div style="display: none;" class="youbian">
-                <div>
-                    <img src="homework/东南大学图片.webp" width="300px" height="300px">
-                </div>
-                <div>
-                     东南大学（Southeast University），简称“东大” [102]  ，本部位于南京 [86]  ，是中华人民共和国教育部直属全国重点大学，中央直管副部级建制，是国家“双一流”、“985工程”、“211工程”重点建设高校 [1]  [5]  ，入选“珠峰计划” [96]  [119-120]  、“强基计划” [88]  、“2011计划”、“111计划”、卓越工程师教育培养计划、卓越医生教育培养计划、学位授权自主审核单位 [89]  、首批未来技术学院建设高校 [90]  ，为“建筑老八校” [91]  、卓越大学联盟 [92]  、长三角可持续发展大学联盟 [93]  、中英大学工程教育与研究联盟 [94]  、中俄工科大学联盟 [95]  、碳中和世界大学联盟 [106]  成员。
-                东南大学肇始于1902年创建的三江师范学堂，后历经两江师范学堂、南京高等师范学校、国立东南大学、国立中央大学等重要历史时期。1952年全国高校院系调整，学校文理等科迁出，以原国立中央大学工学院为主体，先后并入复旦大学、交通大学、浙江大学、金陵大学等校的有关系科，在国立中央大学本部原址（今东南大学四牌楼校区 [86]  ）建立南京工学院，1988年恢复东南大学校名。2000年与原南京铁道医学院、南京交通高等专科学校、南京地质学校合并组建新的东南大学。
-                </div>
-               </div>
-            <div  style="display: none;">此处为售后保障内容</div>
-            <div  style="display: none;">此处为商品评价内容</div>
-        </div>
-   </div>
+    /* 位置 */
+    .container {
+      position: absolute;
+      width: 800px;
+      height: 180px;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-60%);
+      /* border: 1px solid red; */
+    }
 
+    /* 动画的容器(椭圆) */
+    .box {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      /* border: 1px solid blue; */
+      box-sizing: border-box;
+      border-radius: 50%;
+    }
 
+    /*  椭圆线 */
+    .border {
+      position: absolute;
+      width: 800px;
+      height: 180px;
+      top: 65px;
+      left: 60px;
+      border: 1px solid #0084ff;
+      box-sizing: border-box;
+      border-radius: 50%;
+    }
 
+    /* 以下是转动的动画 */
+    .circle {
+      width: 200px;
+      height: 130px;
+      position: absolute;
+      z-index: 999;
+    }
 
+    .circle img {
+      width: 100%;
+      height: 100%;
+    }
 
-   <script>
-       var lis=document.querySelector('ul').querySelectorAll('li');
-       var divs=document.querySelector('.neirong').querySelectorAll('div');
-       for(var i=0;i<lis.length;i++){
-           lis[i].setAttribute('index',i);
-           lis[i].onclick=function(){
-               for(var i=0;i<lis.length;i++){
-                   lis[i].className='';
-               }
-               this.className='choose';
-               var index=this.getAttribute('index');
-               for(var i=0;i<divs.length;i++){
-                   divs[i].style.display='none';
-               }
-               divs[index].style.display='block';
-           }
-       }
-   </script>
+    .circle1 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -5.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) 0s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) 0s infinite alternate;
+    }
+
+    .circle2 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -7.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -2s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -2s infinite alternate;
+    }
+
+    .circle3 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -9.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -4s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -4s infinite alternate;
+    }
+
+    .circle4 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -11.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -6s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -6s infinite alternate;
+    }
+
+    .circle5 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -13.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -8s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -8s infinite alternate;
+    }
+
+    .circle6 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -15.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -10s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -10s infinite alternate;
+    }
+
+    .circle7 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -17.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -12s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -12s infinite alternate;
+    }
+
+    .circle8 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -19.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -14s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -14s infinite alternate;
+    }
+
+    .circle9 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -21.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -16s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -16s infinite alternate;
+    }
+
+    .circle10 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -23.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -18s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -18s infinite alternate;
+    }
+
+    .circle11 {
+      animation: animX 11s cubic-bezier(0.36, 0, 0.64, 1) -25.5s infinite alternate,
+        animY 11s cubic-bezier(0.36, 0, 0.64, 1) -20s infinite alternate,
+        scale 22s cubic-bezier(0.36, 0, 0.64, 1) -20s infinite alternate;
+    }
+
+    @keyframes animX {
+      0% {
+        left: -4%;
+      }
+
+      100% {
+        left: 96%;
+      }
+    }
+
+    @keyframes animY {
+      0% {
+        top: -4%;
+      }
+
+      100% {
+        top: 96%;
+      }
+    }
+
+    @keyframes scale {
+      0% {
+        transform: scale(0.4);
+        opacity: 0.5;
+      }
+
+      50% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(0.4);
+        opacity: 0.5;
+      }
+    }
+  </style>
+
+  <div class="container">
+    <div class="box">
+      <div class="circle circle1">
+        <img src="./img/步数.png" alt="">
+      </div>
+      <div class="circle circle2">
+        <img src="./img/胆固醇.png" alt="">
+      </div>
+      <div class="circle circle3">
+        <img src="./img/肺呼吸.png" alt="">
+      </div>
+      <div class="circle circle4">
+        <img src="./img/尿酸.png" alt="">
+      </div>
+      <div class="circle circle5">
+        <img src="./img/睡眠.png" alt="">
+      </div>
+      <div class="circle circle6">
+        <img src="./img/体脂.png" alt="">
+      </div>
+      <div class="circle circle7">
+        <img src="./img/跳绳.png" alt="">
+      </div>
+      <div class="circle circle8">
+        <img src="./img/握力.png" alt="">
+      </div>
+      <div class="circle circle9">
+        <img src="./img/心率.png" alt="">
+      </div>
+      <div class="circle circle10">
+        <img src="./img/血糖.png" alt="">
+      </div>
+      <div class="circle circle11">
+        <img src="homework/beijing2.webp" alt="">
+      </div>
+
+      <!-- 椭圆线 -->
+      <div class="border"></div>
+    </div>
+  </div>
 </body>
+
 </html>
