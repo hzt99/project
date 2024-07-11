@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T02:29:13.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Avjf-aS-IeaRDMQyadCl" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T02:31:17.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8l84Oc2vgQ76mM0Jil5S" version="24.6.4" type="github">
   <diagram name="第 1 页" id="B0zBH3N_toymizAEEGmr">
     <mxGraphModel dx="1290" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,19 +29,25 @@
           <mxGeometry x="180" y="460" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hj6OEBDG58ZseiKjt-y--11" value="价格" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="450" width="140" height="70" as="geometry" />
+          <mxGeometry x="340" y="470" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hj6OEBDG58ZseiKjt-y--12" value="借书卡id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="50" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hj6OEBDG58ZseiKjt-y--13" value="语言类型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="440" width="140" height="70" as="geometry" />
+          <mxGeometry x="510" y="460" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hj6OEBDG58ZseiKjt-y--14" value="编号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="400" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hj6OEBDG58ZseiKjt-y--16" value="图书名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="410" width="140" height="70" as="geometry" />
+          <mxGeometry x="670" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hj6OEBDG58ZseiKjt-y--17" value="账户信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="687" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hj6OEBDG58ZseiKjt-y--18" value="还书" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
